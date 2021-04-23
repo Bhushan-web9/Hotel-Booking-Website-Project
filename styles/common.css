@@ -4,6 +4,7 @@ max-width: 100%;
 padding: 0px;
 margin: 0px;
 }
+
 .logo{
     height: 60px;
     width: 60px;
@@ -11,4 +12,11 @@ margin: 0px;
 .socialmediaimg{
     height: 20px;
     width: 22px;
+}
+header{
+   background-color: rosybrown; 
+}
+
+footer{
+    background-color: rosybrown; 
 }

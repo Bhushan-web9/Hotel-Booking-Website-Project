@@ -1,4 +1,29 @@
-.paymentimg{
-    height: 500px;
+.hotelimg{
+    height: 150px;
+    width: 150px;
+}
+
+body{
+    background-color: #e0e0e0;
+}
+
+.hotelimg{
     width: 500px;
+    height: 500px;
+}
+.hotelimgbg{
+    background-color: rgb(132,136,139);
+    width: 50%;
+    height: auto;
+    margin: 2% auto;
+    
+}
+.coustmerdetail{
+    margin: 2%;
+}
+.tariffdetails{
+    margin: 2%;
+    border: 1px solid black;
+    padding: 1% 2%;
+    border-radius: 5px;
 }

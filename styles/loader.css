@@ -1,0 +1,17 @@
+body {
+    max-height: 100%;
+
+    background-color: #ffffff;
+  
+ 
+  }
+  .loder{
+   
+    width: 70px;
+    height: 70px;
+    margin: 20% auto;
+    border: 12px solid #f3f3f3;
+    border-radius: 50%;
+    border-top-color: #444444;
+    
+  }
