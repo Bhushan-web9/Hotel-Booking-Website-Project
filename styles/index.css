@@ -34,6 +34,9 @@
     font-size: 16px;
     
 } 
+input:focus {
+    outline: none !important;
+}
 
 .container-body{
     display: flex;
@@ -55,12 +58,49 @@
 .block1,.block4,.block3,.block2{
     width: 150px;
     height: 150px;
+    position:relative;
 
 }
+
+.block1:hover .overlay,.block4:hover .overlay,.block3:hover .overlay,.block2:hover .overlay{  
+    opacity: 1;
+}
+
+
+.text{
+    left: 46%;
+    top: 46%;
+    position: absolute;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    -webkit-transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -0%);
+    transform: translate(-50%, 0%);
+  
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius:25%;  
+   
+   
+}
+
 .cityimg{
     height: 150px;
     width: 150px;
-    border-radius:25%;  
+    border-radius:25%; 
+    box-shadow: 10px 10px 10px grey; 
 }
 
 .container-view a{

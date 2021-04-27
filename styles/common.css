@@ -6,13 +6,16 @@ Html, body {
 
 body{
     background-color: #e0e0e0;
-    font-family: 'Ubuntu', sans-serif
+    font-family: 'Ubuntu', sans-serif;
 }
+
 
 .logo{
     height: 60px;
     width: 60px;
+    margin-left: 1%;
 }
+
 
 .socialmediaimg{
     height: 20px;
@@ -27,6 +30,11 @@ header{
    left:0;
    top:0;
    text-decoration: none;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   justify-content: space-between;
 }
 
 footer{
@@ -49,12 +57,16 @@ footer{
         color: black;
  }
 
-.logintext{
-    float: right;
-    margin: 1%;
+.logintext {
+    margin-right: 1%;
     text-decoration: none;
     color: black;
 }
+.logintext a{
+    text-decoration: none;
+    color: black;
+}
+
 .footer-contact{
 margin-left: 10px;
 }

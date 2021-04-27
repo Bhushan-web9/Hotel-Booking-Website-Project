@@ -1,27 +1,52 @@
 .container-payment{
    height: auto;
    margin-top: 8%;
+   justify-content: flex-start;
 }
 .hotelimg{
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: auto;
 }
-.hotelimgbg{
+.section-1{
+    display: flex;
     background-color: rgb(132,136,139);
     width: 50%;
     height: auto;
+   margin: 0% auto;
+   place-self: flex-start;
+   align-items: center;
+   
+}
+.section-content-1{
+    margin: 10px;
+    padding: 5px;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    background-color: rosybrown;
+    width: 96%;
     margin: 2% auto;
-    
+    border: 1px black solid;
+    border-radius: 12px;
+
 }
 .coustmerdetail{
     margin: 2%;
 }
-.tariffdetails{
+.section-2 p b{
+    font-family: cursive;
+}
+/* .tariffdetails{
     margin: 2%;
     border: 1px solid black;
     padding: 1% 2%;
     border-radius: 5px;
-}
+} */
 .paynow{
     text-decoration: none;
     color: black;

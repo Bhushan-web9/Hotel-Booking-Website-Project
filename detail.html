@@ -12,37 +12,42 @@
             <a href="login.html" target="_self" class="logintext">Login</a>
         </header>
       
-        <div class="container-detail">
-            
-            <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="detailimg" alt="">
-            
-           <form action="payment.html" method="get" target="_self" class="fom">   
-                <label for="number-of-person">Adults:</label>
-                <input type="number" id="adults" name="Adults" min="1" required/><br>
+        <div class="container" >
+            <div class="container-detail">
+            <div class="deatail-imgarea">
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="detailimg" alt="">
+            </div> 
+            <div class="detail-form">
+                <form action="payment.html" method="get" target="_self" class="fom"> 
+                        <label for="number-of-person">Adults:</label>
+                        <input type="number" id="adults" name="Adults" min="1" required/><br>
+                        <label for="name-of number-of-person" >Name:</label>
+                        <input type="text" id="name" name="Name" autocomplete="off" required/><br>
 
-                <label for="name-of number-of-person" >Name:</label>
-                <input type="text" id="name" name="Name" autocomplete="off" required/><br>
+                        <label for="From-date">From-Date:</label>
+                        <input type="date" id="from-date" name="from-date" required><br>
 
-                <label for="From-date">From-Date:</label>
-                <input type="date" id="from-date" name="from-date" required><br>
+                        <label for="To-date">To-Date:</label>
+                        <input type="date" id="to-date" name="to-date" required><br>
 
-                <label for="To-date">To-Date:</label>
-                <input type="date" id="to-date" name="to-date" required><br>
+                        <label for="Total">Total:</label>
+                        <input type=""  id="total" name="price" readonly /><br>
 
-                <label for="Total">Total:</label>
-                <input type=""  id="total" name="price" readonly /><br>
+                        <input type="submit"  value="book Now" />
 
-                <input type="submit"  value="book Now" />
-           </form>
+                </form>
+            </div>
+            </div>
+        </div>
             <div class="detailcontant">
                 <h2>Radisson Blu Hotel</h2>
-                <p>
+                <h5>
                     RATING
-                </p>
+                </h5>
                 <P>
                     5 Star
                 </P>
-                <P>ANEMITIES</P>
+                <h5>ANEMITIES</h5>
                 <ul>
                     <li>Room service</li>
                     <li>Resturant</li>
@@ -53,7 +58,7 @@
                 <h5>DESCRIPTION</h5>
                 <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</P>
             </div> 
-        </div>
+       
 
         <footer>
             <div class="footer-contact"><a href="contact.html" target="_self"><p>Contact Us</p></a></div>
