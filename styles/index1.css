@@ -1,0 +1,37 @@
+ 
+.container{
+width:100%;
+background-position: center;
+background-size: cover;
+height : 380px; 
+background-image: url(https://media-cdn.tripadvisor.com/media/photo-o/14/10/2e/af/india.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
+.container > 
+
+.container img{
+   
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    }
+
+.cityimg img{
+    height: 150px;
+    width: 150px;
+    border-radius:25%;   
+
+}
+
+
+.serch{
+    background-color:  #f1f1f1;
+    border: 1px solid transparent;
+    margin:  11% 40%;
+    padding: 1%;
+    border-radius: 5px;
+    width: 25%;
+    
+}

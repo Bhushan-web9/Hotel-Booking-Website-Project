@@ -1,22 +1,69 @@
 Html, body {
-max-height: 100%;
-max-width: 100%;
-padding: 0px;
-margin: 0px;
+    margin:0;
+	padding:0;
+	height:100%
+}
+
+body{
+    background-color: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif
 }
 
 .logo{
     height: 60px;
     width: 60px;
 }
+
 .socialmediaimg{
     height: 20px;
-    width: 22px;
+    width: 22px;  
 }
+
 header{
    background-color: rosybrown; 
+   position: fixed;
+   width: 100%;
+   height: auto;
+   left:0;
+   top:0;
+   text-decoration: none;
 }
 
 footer{
+    position: fixed;
+    height: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: rosybrown; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+ }
+
+ footer a{
+        text-decoration: none;
+        color: black;
+ }
+
+.logintext{
+    float: right;
+    margin: 1%;
+    text-decoration: none;
+    color: black;
+}
+.footer-contact{
+margin-left: 10px;
+}
+
+.footer-copy{
+margin-top: 20px;
+bottom: 0;
+}
+
+.footer-socialimg{
+    margin-right: 15px;
 }

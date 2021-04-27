@@ -1,18 +1,55 @@
+
+
+.view{
+    margin-top: 6%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+   
+}
+
+ul.no-bullets {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width:12%;
+    align-items: center; 
+   
+} 
+.no-bullets a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    
+}
+
+
 .hotelimg{
     height: 250px;
     width: 250px;
 }
-
-body{
-    background-color: #e0e0e0;
-}
 .detail{
-    margin: 2%;
     height: auto;
-
+    padding-bottom: 4%;
 }
-
-.bgdetails{
+.parent-block{
+    display: flex;
+    width: 100%;
+    margin: 0% ;
+    padding: 0%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+   
+}
+.bgdetails {
     width: 40%;
     background-color: rgb(132,136,139);
+    margin: 2% 4%;
+  
 }
+.bgdetails a {
+    text-decoration: none;
+    color: black;
+}
+
