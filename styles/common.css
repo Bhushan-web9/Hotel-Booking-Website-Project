@@ -2,6 +2,7 @@ Html, body {
     margin:0;
 	padding:0;
 	height:100%
+   
 }
 
 body{
@@ -22,7 +23,7 @@ body{
     width: 22px;  
 }
 
-header{
+.header{
    background-color: rosybrown; 
    position: fixed;
    width: 100%;
@@ -37,7 +38,7 @@ header{
    justify-content: space-between;
 }
 
-footer{
+.footer{
     position: fixed;
     height: auto;
     left: 0;
@@ -50,6 +51,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     text-decoration: none;
+    padding: 6px;
  }
 
  footer a{

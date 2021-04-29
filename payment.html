@@ -2,14 +2,17 @@
     <head>
         <link href="styles/common.css" rel="stylesheet">
         <link href="styles/payment.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
         <title>Payment</title>
     </head>
     <main >
     <body>
 
-        <header>
+        <header class="header">
             <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo" ></a>
-            <a href="login.html" target="_self" class="logintext">Login</a>
+            <a href="login.html" target="_self" class="logintext btn btn-light" >Login</a>
         </header>
    
             <div class="container-payment">
@@ -39,15 +42,15 @@
                         
                     </div>
                     <div>
-                        <a href="payment.html" class="paynow"><p>Pay Now</p></a>
+                        
+                        <button type="button" class="btn btn-success">Pay Now</button>
                     </div>
              
              </div>
             </div>
-        
-            <footer>
-                <div class="footer-contact"><a href="contact.html" target="_self"><p>Contact Us</p></a></div>
-               
+            <footer class="footer">
+                <div class="footer-contact "><a href="contact.html" class="btn btn-primary" target="_self">Contact Us</a></div>
+            
                 <div class="footer-copy">&#169; 2020ROOM SEARCH PVT.LTD</div>
                 <div class="footer-socialimg">
                     <a href="https://www.facebook.com"  target="blank"> <img src="assests/images/facebook.png" class="socialmediaimg" alt="facebook" ></a>
@@ -55,7 +58,6 @@
                     <a href="https://www.instagram.com"  target="blank"> <img src="assests/images/instagram.png" class="socialmediaimg" alt="instagram" ></a>
                 </div> 
             </footer>
-
     </body>
     </main>
 </html>

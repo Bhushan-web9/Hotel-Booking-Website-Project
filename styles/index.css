@@ -1,10 +1,11 @@
-.container{
+.content{
     display: flex;
     width: 100vw;
     height: 110vh;
     max-height: fit-content;
     flex-direction: column;
     overflow-y: auto;
+    background-color: #e0e0e0e0;
 }
 
 .container-banner{
@@ -38,7 +39,7 @@ input:focus {
     outline: none !important;
 }
 
-.container-body{
+.cbody{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,12 +47,12 @@ input:focus {
   
 }
 
-.container-body-blocks{
+.blocks{
     display: flex;
     width: 80%;
     height: 50%;
     justify-content: space-around;
-    background-color: #e0e0e0;
+   
 
 }
 

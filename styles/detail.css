@@ -7,6 +7,9 @@
 
 .fom{
     width: 100%;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
 
 }
 .detailcontant{
@@ -38,4 +41,29 @@
     margin: 2% 2%;
    
 }
+.content-3{
+    background-color: #e0e0e0e0;
+    padding: 1%;
+}
+.table{
+   
+    width: 100%;
+    height: fit-content;
+    
+}
+
+.sb{
+    width: 100%;
+    display: flex;
+   
+}
+.bs{
+    margin: 0% auto;
+
+
+}
+.if{
+    width: 100%;
+}
+
 
